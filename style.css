@@ -1,0 +1,114 @@
+body{
+    /* background-image: url("https://img.freepik.com/premium-photo/abstract-blurred-gradient-background_753751-1815.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-top: 30px;
+    color: red;
+}
+
+
+/*header*/
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 750px;
+    margin-top: -60px;
+    width: 500px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover{
+    color:black;
+}
+
+
+
+/*squad-50*/
+.sq{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.br1{
+    font-size: 35px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+.red{
+    /* background: linear-gradient(90deg,red,black); */
+    /* color: transparent; */
+    /* -webkit-background-clip: text; */
+    color: red;
+    font-family: 'DM Serif Display', serif;
+}
+
+h5{
+    margin-top: -30px;
+    font-style: italic;
+}
+
+
+/* Scroll thing */
+
+#scroll {
+    width: 80px;
+    margin-top: -30px;
+    margin-left: 648px;
+}
+
+#scroll{
+    /* border: 1px solid red; */
+    position:relative;
+    animation: slide 1s infinite;
+}
+
+@keyframes slide{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 40px;
+    }
+}
+
+/* CAMPUS */
+/* code goes here  */
+
+
+
+
+/* GALLERY  */
+/* code goes here  */
+
+
+
+
+/* FOOTER  */
+footer{
+    text-align: center;
+}
+
+hr{
+    width: 1000px;
+}
+
+
