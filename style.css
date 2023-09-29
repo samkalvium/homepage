@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* background-image: url("https://img.freepik.com/premium-photo/abstract-blurred-gradient-background_753751-1815.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    color: white;
 }
 
 body{
@@ -14,11 +19,17 @@ body{
 }
 .logo h1{
     margin-top: 30px;
-    color: red;
+    color: rgb(239,59,61);
 }
 
 
 /*header*/
+
+.backimg{
+    background-image: url('homeback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -29,7 +40,7 @@ ul{
 }
 
 a{
-    color: red;
+    color: rgb(239,59,61);
     text-decoration: none;
     font-weight: bold;
     font-size: large;
@@ -37,7 +48,7 @@ a{
 }
 
 a:hover{
-    color:black;
+    color:white;
 }
 
 
@@ -57,13 +68,14 @@ a:hover{
     /* background: linear-gradient(90deg,red,black); */
     /* color: transparent; */
     /* -webkit-background-clip: text; */
-    color: red;
+    color: rgb(239,59,61);
     font-family: 'DM Serif Display', serif;
 }
 
 h5{
     margin-top: -30px;
     font-style: italic;
+    color: white;
 }
 
 
@@ -90,15 +102,81 @@ h5{
     }
 }
 
+/* MEMEBERS EDIT SECTION  */
+#imgi{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.redirect{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.redirect:hover{
+    background-color: white;
+    color:black;
+}
+
+/* Proud Kalvians text  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');.headin{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+}
+
+/* member 1  */
+.mem1{
+    display: flex;    
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:gray;
+    width: 1100px;
+    margin-left: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.text{
+    /* border: 1px solid red; */
+    width: 800px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+/* member 2  */
+
+.mem2{
+    display: flex;    
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:gray;
+    width: 1100px;
+    margin-left: 150px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+
 /* CAMPUS */
 /* code goes here  */
-
+.campus{
+    background-color: white;
+    padding: 10px;
+}
 
 
 
 /* GALLERY  */
 /* code goes here  */
 
+.gallry{
+    padding: 10px;
+    background-color: white;
+   padding-left: 80px;
+}
 
 
 
@@ -111,4 +189,8 @@ hr{
     width: 1000px;
 }
 
-
+.backtotop{
+    position: sticky;
+    top: 620px;
+    margin-left: 1300px;
+}
